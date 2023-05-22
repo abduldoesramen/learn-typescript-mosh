@@ -9,4 +9,5 @@ function render(document: any) {
 }
 
 /* arrays */
-let numbers = [1, 2, 3];
+let numbers: number[] = [1, 2, 3];
+let emptyArray: number[] = [];
