@@ -11,3 +11,8 @@ function render(document: any) {
 /* arrays */
 let numbers: number[] = [1, 2, 3];
 let emptyArray: number[] = [];
+
+/* tuples: fixed length array where each index has a specific type */
+let user: [number, string] = [1, "Mosh"];
+// Can check functions based on their type via intellisense:
+// user[1].
